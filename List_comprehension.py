@@ -29,3 +29,8 @@ short_names = [name for name in names if len(name) < 5]
 print(short_names)
 Long_names = [name.upper() for name in names if len(name) > 5]
 print(Long_names)
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  DICTIONARY COMPREHENTION  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+# new_dict = {new_key:new_value for items in LIST if test}   
+# new_dict = {new_key:new_value for (key, value) in DICT.items() if test}
