@@ -21,7 +21,7 @@ print(f"Result of the numbers are: {add(1,2,3,4,5,6)}")
 def calculate(n, **kwargs):
     print(kwargs)
     # n += kwargs["add"]
-    n += kwargs.get("add")
+    n += kwargs.get("addp")
     n *= kwargs.get("multiply")
     n /= kwargs.get("divide")
     n -= kwargs.get("subtract")  
